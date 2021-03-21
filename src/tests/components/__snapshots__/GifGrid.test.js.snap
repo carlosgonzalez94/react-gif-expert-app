@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of the component <GifGridItem /> Should render items when the images are loaded 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="fake id"
+      key="fake id"
+      title="fake title"
+      url="fake url"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Test of the component <GifGridItem /> Should render the component AddCategory correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One Punch
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
